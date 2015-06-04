@@ -1,0 +1,11 @@
+
+So for this program as commented in the program as well we were to blast two files to obtain a blast output and find the homologs where we needed to 
+take the mouseRefSeq IDs and extract only those from our blast output. My logic here was as mentioned in the comments, was to only obtain a 
+custom blast output to make the parsing a little bit easier. 
+
+The blast commands that was used in the program:
+
+1) makeblastdb -in human.rna.fna -dbtype nucl -out humandb.db
+2) blastn -db humandb.db -query mouse.rna.fna -outfmt "6 qseqid sseqid qlen slen length bitscore evalue" -evalue 1e-05 -out blast_output.txt
+
+

@@ -1,0 +1,58 @@
+A) Count the number of genes in each organism in the input file
+
+ grep -v '#' exam_gene_info.txt| cut -f1 | sort | uniq -c
+ 
+ Tax_id 10090 is for mouse.
+ Tax_id 10116 is for rat.
+ Tax_id 7227 is for fruit fly.
+ Tax_id 9606 is for humans. 
+
+Result:
+
+ 63959 10090
+  37837 10116
+  22705 7227
+  36449 9606
+  
+#####################################################
+
+B) For Homo sapiens, determine the gene distribution for each chromosome 
+(how many genes are on each chromosome?).
+
+grep -v '#' exam_gene_info.txt | grep '9606' | cut -f7 | sort -n | uniq -c
+
+Result: 
+    401 -
+     37 MT
+    457 Un
+   1720 X
+     30 X|Y
+    325 Y
+   3293 1
+   2256 2
+   1750 3
+      1 3 |11
+      1 3 |19
+   1381 4
+      1 4|12
+   1510 5
+   1980 6
+   1974 7
+      1 7|16
+   1269 8
+   1408 9
+   1362 10
+      1 10|19|3
+   2130 11
+   1613 12
+    676 13
+   1592 14
+   1319 15
+   1340 16
+   1851 17
+    574 18
+   1949 19
+    875 20
+    501 21
+      1 21|Un
+    924 22

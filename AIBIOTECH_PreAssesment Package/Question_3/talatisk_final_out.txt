@@ -1,0 +1,23 @@
+dbSNP ID	Gene Name	Ref Nucleotide	Alternate nucleotide	Associated Disease
+121912770	COL17A1	G	A	Adult_junctional_epidermolysis_bullosa
+267602633	CYP2C19	G	A	Malignant_melanoma
+28399504	CYP2C19	A	G	Mephenytoin,poor_metabolism_of
+4986893		CYP2C19	G	A	Mephenytoin,poor_metabolism_of,Proguanil,poor_metabolism_of
+267602634	CYP2C19	G	A	Malignant_melanoma
+121912772	COL17A1	A	C	Adult_junctional_epidermolysis_bullosa
+121912773	COL17A1	C	T	Adult_junctional_epidermolysis_bullosa
+121912769	COL17A1	G	A	Adult_junctional_epidermolysis_bullosa,Epidermolysis_bullosa,junctional,localisata_variant
+267602635	CYP2C19	C	T	Malignant_melanoma
+142846802	PPP2R2D	C	T	Malignant_melanoma
+267602637	CYP2C19	C	T	Malignant_melanoma
+267602632	CYP2C19	G	A	Malignant_melanoma
+121912774	COL17A1	G	A	Adult_junctional_epidermolysis_bullosa
+267602353	COL17A1	C	T	Malignant_melanoma
+267602354	COL17A1	C	T	Malignant_melanoma
+267602631	CYP2C19	C	T	Malignant_melanoma
+121912771	COL17A1	C	T	Epidermolysis_bullosa,junctional,localisata_variant
+56337013	CYP2C19	C	T	Mephenytoin,poor_metabolism_of
+141533135	CYP2C19	G	A	Malignant_melanoma
+17878459	CYP2C19	G	A
+						C	Malignant_melanoma
+267602636	CYP2C19	C	T	Malignant_melanoma

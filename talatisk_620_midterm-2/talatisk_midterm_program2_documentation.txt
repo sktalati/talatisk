@@ -1,0 +1,5 @@
+
+In this program the goal and task was to parse a .gbk file or a genebank file. There were certain components that were needed to be extracted. The approach 
+I took was to go through a for loop which reads my input genbank file and use python's regular expressions to parse everything out. I took the approach of separating 
+the gene locations based on if it was the location was a complement or not and thus I have two print statements to take account for two different scenarios. I would say the toughest
+part of this task was to get the regular expression to work right according to the file. 
